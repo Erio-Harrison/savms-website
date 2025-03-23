@@ -1,36 +1,94 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SAVMS Official Website
 
-## Getting Started
+The official website of the Smart Autonomous Vehicle Management System (SAVMS), built using Next.js and Tailwind CSS.
 
-First, run the development server:
+## Project Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+SAVMS is a next-generation intelligent vehicle management platform that integrates data collection, fault prediction, energy optimization, and safety management, making your fleet management smarter, safer, and more efficient.
+
+## Tech Stack
+
+- **Next.js 15+**: React framework providing server-side rendering and static generation
+- **React 19+**: User interface library
+- **TypeScript**: Static type checking
+- **Tailwind CSS**: Utility-first CSS framework
+- **React Icons**: Icon library
+
+## Local Development
+
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd savms-website
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
+
+## Deploy to Vercel
+
+### Automatic Deployment
+
+1. Create an account on [Vercel](https://vercel.com) and connect your GitHub repository
+2. Click "Import Project" and select your GitHub repository
+3. Keep the default settings and click "Deploy"
+
+### Manual Deployment
+
+1. Install Vercel CLI:
+   ```bash
+   npm i -g vercel
+   ```
+
+2. Log in to Vercel:
+   ```bash
+   vercel login
+   ```
+
+3. Deploy the project:
+   ```bash
+   vercel
+   ```
+
+## Project Structure
+
+```
+├── public/              # Static assets
+├── src/
+│   ├── app/             # Next.js app directory
+│   │   ├── page.tsx     # Homepage
+│   │   ├── layout.tsx   # Root layout
+│   │   └── globals.css  # Global styles
+│   ├── components/      # Components
+│   └── styles/          # Additional styles
+├── tailwind.config.js   # Tailwind configuration
+└── package.json         # Project dependencies
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Customization
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Color Theme**: Edit the color variables in `tailwind.config.js` and `src/app/globals.css`
+- **Content**: Modify the text content in each component
+- **Images**: Replace the images in the `public` directory
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Main Project Repository
 
-## Learn More
+SAVMS main project repository: [https://github.com/Erio-Harrison/SAVMS](https://github.com/Erio-Harrison/SAVMS)
 
-To learn more about Next.js, take a look at the following resources:
+## Contact Us
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Email: u7541840@gmail.com
+- GitHub: [https://github.com/Erio-Harrison/SAVMS](https://github.com/Erio-Harrison/SAVMS)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## License
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MIT
