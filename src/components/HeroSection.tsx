@@ -15,14 +15,6 @@ export default function HeroSection() {
             <p className="text-blue-100 text-xl mt-6 max-w-lg">
               SAVMS is a next-generation intelligent vehicle management platform that integrates data collection, fault prediction, energy optimization, and safety management, making your fleet management smarter, safer, and more efficient.
             </p>
-            <div className="mt-10 flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
-              <Link 
-                href="#demo" 
-                className="bg-white text-blue-600 hover:bg-blue-50 px-6 py-3 rounded-md font-medium text-lg transition-colors shadow-lg text-center"
-              >
-                Demo
-              </Link>
-            </div>
           </div>
           
           <div className="md:w-1/2 relative">

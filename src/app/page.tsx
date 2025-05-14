@@ -16,7 +16,6 @@ export default function Home() {
       <HeroSection />
       <StatsSection />
       <FeaturesSection />
-      <TechnologySection />
       <DemoSection />
       <UseCasesSection />
       <CtaSection />
