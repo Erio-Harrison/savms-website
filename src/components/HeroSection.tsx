@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 export default function HeroSection() {
   return (
     <section className="bg-gradient-to-br from-[#0f172a] to-[#1e3a8a] pt-32 pb-20 relative overflow-hidden">
